@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_component_group_groups",
+  "info": {
+    "displayName": "group",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "dateInfo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
