@@ -1,4 +1,4 @@
-export default [
+/* export default [
   'strapi::logger',
   'strapi::errors',
   'strapi::security',
@@ -9,4 +9,25 @@ export default [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+]; */
+
+module.exports = [
+  'strapi::errors',
+  'strapi::security',
+  'strapi::poweredBy', // here
+  {
+    name: 'strapi::cors',
+    config: {
+ 
+      // headers: '*',
+      origin: ['http://localhost:3000', 'http://localhost:1337', ]
+    }
+  },
+  'strapi::logger',
+  'strapi::query',
+  'strapi::body',
+  'strapi::session',
+  'strapi::favicon',
+  'strapi::public',
 ];
+
