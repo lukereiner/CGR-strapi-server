@@ -20,7 +20,10 @@ module.exports = [
     config: {
  
       // headers: '*',
-      origin: ['http://localhost:3000', 'http://localhost:1337', ]
+      origin: ['http://localhost:3000', 'http://localhost:1337', 
+        'https://dev.greatredeemerchurch.org',
+        'https://www.greatredeemerchurch.org',
+        'https://content.greatredeemerchurch.org',]
     }
   },
   'strapi::logger',
