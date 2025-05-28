@@ -20,8 +20,7 @@ module.exports = [
     config: {
  
       // headers: '*',
-      origin: ['http://localhost:3000', 'http://localhost:1337', 
-        'https://dev.greatredeemerchurch.org',
+      origin: ['http://localhost:3000', 'http://localhost:1337',
         'https://www.greatredeemerchurch.org',
         'https://content.greatredeemerchurch.org',]
     }
